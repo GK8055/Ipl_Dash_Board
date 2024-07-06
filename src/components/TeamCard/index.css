@@ -1,0 +1,29 @@
+.each_card_container_link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.each_card_container_card {
+  width: 40%;
+
+  border-radius: 20px;
+  background-color: lightblue;
+  padding: 20px;
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.team_image_size {
+  height: 90px;
+  width: 90px;
+  margin: 50px;
+}
+.match {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}

@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.home_container {
+  padding: 20px;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  font-family: 'Roboto';
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+.top_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main_card_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+  padding: 20px;
+  background-color: black;
+}
+
+.logo_size {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}
